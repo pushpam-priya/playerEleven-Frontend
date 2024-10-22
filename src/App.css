@@ -29,3 +29,246 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+/* Match */
+.match-list {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f7fa;
+}
+
+.match-list h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.match-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.match-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.match-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.match-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #3498db;
+}
+
+.match-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.match-card .status {
+  font-weight: bold;
+  color: #27ae60;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Player List */
+.player-list {
+  margin-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+}
+
+.player-list h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.player-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.player-item span {
+  font-size: 0.9rem;
+}
+
+.player-item button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.player-item button:hover {
+  background-color: #2980b9;
+}
+
+/* User Team */
+.user-team {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-team h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.user-team ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-team li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.user-team button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.user-team button:hover {
+  background-color: #c0392b;
+}
+
+/* Match Detail */
+.match-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.match-detail h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.team {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team h2 {
+  color: #3498db;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.player-list {
+  list-style: none;
+  padding: 0;
+}
+
+.player-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.player-item:hover {
+  background-color: #e9ecef;
+}
+
+.player-item span {
+  font-size: 1rem;
+}
+
+.player-item button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.player-item button:hover {
+  background-color: #2980b9;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.back-link:hover {
+  background-color: #2980b9;
+}
+
+.player-item button.disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.player-item button.disabled:hover {
+  background-color: #bdc3c7;
+}

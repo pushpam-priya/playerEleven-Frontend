@@ -1,4 +1,3 @@
-// src/components/TeamForm.js
 import React, { useState } from 'react';
 import PlayerList from './PlayerList';
 import Team from './Team';

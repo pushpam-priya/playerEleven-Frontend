@@ -1,4 +1,3 @@
-// src/components/PlayerList.js
 import React from 'react';
 
 const PlayerList = ({ players, addPlayerToTeam }) => {
